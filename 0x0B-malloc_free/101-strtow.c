@@ -12,7 +12,7 @@ int words(char *st)
 
 	while (st[i])
 	{
-		while (st[i] && st[i] == ' ') 
+		while (st[i] && st[i] == ' ') /*count positions with spaces*/
 			++i;
 		if (st[i] == '\0')
 			break;
